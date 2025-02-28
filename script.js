@@ -5,13 +5,17 @@ function cadastraUser() {
     let nome = document.getElementById("nome").value 
     let email = document.getElementById("email").value 
 
+    if (nome == "" || email == ""){
+        alert("Preencha os campos vazios!")
+    }else {
+
     users.push({nome: nome, email: email})
 
     document.getElementById("nome").value  =  ""
     document.getElementById("email").value  = ""
     showUsers()
-
-    console.log(users)
+}
+    
 }
 
 function showUsers() {
