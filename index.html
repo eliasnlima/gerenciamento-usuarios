@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+    <div class="container">
+        <div class="content">
+            <div class="form">
+                <h3>Cadastro de usuário</h3>
+                <p>Nome:</p>
+                <input type="text" id="nome">
+                <p>E-mail:</p>
+                <input type="text" id="email"><br>
+                <center><button class="button" id="btnCadastrar" onclick="cadastraUser()">Cadastrar</button></center>
+            </div>
+
+           
+        </div>
+
+        
+    </div>
+    <div class="container2">
+        <div class="list" oninput="limpo()">
+            <p class="inputSearch"><input type="text" id="search" placeholder="Buscar por nome"><input type="submit" value="Buscar" onclick="search()"></p>
+            <h2 style="text-align: center; font-weight: 700;">Usuários</h2>
+            <ul id="listaUser">
+                
+            </ul>
+
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
