@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação web simples para gerenciar usuários, permitindo adicionar usuários com nome e e-mail, visualizar uma lista de todos os usuários cadastrados, e realizar buscas dinâmicas em tempo real.
 
-link: https://gerenciamento-usuarios-6fwkv6x4y-elias-nery-limas-projects.vercel.app
+link: https://gerenciamento-usuarios-git-master-elias-nery-limas-projects.vercel.app
 
 ## Funcionalidades
 
